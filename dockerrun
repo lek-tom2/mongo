@@ -1,0 +1,5 @@
+docker run -d \
+--name mongo-demo \
+-p 27017:27017 \
+-v mongodemo:/data/db \
+mongo:7.0
